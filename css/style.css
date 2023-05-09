@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    color: purple;
+}
+
+@media (min-width: 1024px){
+    .gridindex{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        background-color: #fff;
+    }
+
+    header{
+        width: auto;
+    }
+
+    .header-contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        background-color: rgb(99, 25, 168);
+    }
+
+    .header-contenedor .logo-header{
+        margin-left: 40px;
+        margin-top: 5px;
+        width: 80px;
+        height: 90px;
+    }
+
+    .header-contenedor .header-contenedor__iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-right: 25px;
+    }
+
+    .header-contenedor .header-contenedor__iconos li a{
+        color: #000;
+    }
+
+    .div-links__navegacion .div-links__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .div-links__navegacion .div-links__items .logos-marcas{
+        width: 80px;
+        height: 50px;
+    }
+
+    .div-links__navegacion .div-links__items .logo-adidas{
+        width: 50px;
+    }
+
+    .div-links__navegacion .div-links__items .logo-puma{
+        width: 50px;
+        height: 70px;
+    }
+
+    .contenedor-principal{
+        margin: auto;
+        width: 700px;
+    }
+
+    .contenedor-principal .contenedor-principal__arriba h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+
+    .contenedor-principal .contenedor-principal__arriba .contenedor-principal__items-1{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px auto;
+    }
+
+    .contenedor-principal .contenedor-principal__arriba .contenedor-principal__items-1 .items-1{
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedor-principal .contenedor-principal__abajo h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+
+    .contenedor-principal .contenedor-principal__abajo .contenedor-principal__items-2{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px auto;
+    }
+
+    .contenedor-principal .contenedor-principal__abajo .contenedor-principal__items-2 .items-2{
+        width: 100px;
+        height: 100px;
+    }
+     /*Nike*/
+    .contenedor-card-nike1{
+        height: 170px;
+        width: 200px;
+        display: inline;
+    }
+    .contenedor-card{
+        display: block;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(99, 25, 168);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .redes-sociales h4{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    footer .redes-sociales .iconos-footer{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    footer .redes-sociales .iconos-footer p{
+        padding-top: 10px;
+    }
+
+    footer .mensaje-footer{
+        width: 380px;
+    }
+
+    #opinion-footer{
+        margin: 40px auto;
+    }
+
+    footer .boton-contacto{
+        margin-top: 50px;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+
+    footer .boton-contacto a{
+        color: #000;
+    }
+}
+@media (max-width:768px) {
+    .gridindex{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        background-color: #fff;
+    }
+
+    header{
+        width: auto;
+    }
+
+    .header-contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100px;
+        background-color: rgb(99, 25, 168);
+    }
+
+    .header-contenedor .logo-header{
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 80px;
+        height: 90px;
+    }
+
+    .header-contenedor .header-contenedor__iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+
+    .header-contenedor .header-contenedor__iconos li a{
+        color: #000;
+    }
+
+    .div-links__navegacion .div-links__items {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        align-items: center;
+        padding-top: 15px;
+        margin-left: 15%;
+    }
+
+    .div-links__navegacion .div-links__items .logos-marcas{
+        width: 70px;
+        height: 60px;
+    }
+    .contenedor-principal .contenedor-principal__arriba h2{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .contenedor-principal .contenedor-principal__arriba .contenedor-principal__items-1 .items-1{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-left: 20%;
+    }
+
+    .contenedor-principal .contenedor-principal__abajo h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+    .contenedor-principal .contenedor-principal__abajo .contenedor-principal__items-2 .items-2{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-left: 20%;
+    }
+     /*Nike*/
+    .contenedor-card-nike1{
+        height: 170px;
+        width: 200px;
+        display: inline;
+    }
+    .contenedor-card{
+        display: block;
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(99, 25, 168);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .redes-sociales h4{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    footer .redes-sociales .iconos-footer{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    footer .redes-sociales .iconos-footer p{
+        padding-top: 5px;
+    }
+
+    footer .mensaje-footer{
+        width:  100px;
+    }
+    footer .boton-contacto{
+        margin-top: 110px;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    footer .boton-contacto a{
+        color: #000;
+    }
+}
